@@ -4,7 +4,6 @@
 
 **Email:** [rsr4@illinois.edu](mailto:rsr4@illinois.edu)
 
-<br/>
 
 ## How to run
 
@@ -14,7 +13,6 @@
 - A sample `transactions.csv` file is included in the root directory for testing, which corresponds to the sample data given in the instructions.
 - The program will output a dictionary of the unique payers and the balance for each payer
 
-<br/>
 
 ## How it works
 - The program first checks if there are enough arguments (ie. the balance argument is present)

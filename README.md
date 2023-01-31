@@ -17,7 +17,7 @@
 ## How it works
 - The program first checks if there are enough arguments (ie. the balance argument is present)
 - The program then checks if the input for the balance argument is valid (ie. a positive integer)
-- Next, the program checks if the file `transaction.csv` exists in the root directory, and has the correct headers.
+- Next, the program checks if the file `transactions.csv` exists in the root directory, and has the correct headers.
 - The transactions are read from the file and stored in a list. Then this list is sorted by the timestamp in ascending order (oldest points to be spent first i.e. oldest based on transaction timestamp).
 - For each transaction, the program checks the balance and subtracts (or adds if points are negative) corresponding to the transaction. Once the balance reaches zero, the program stops processing transactions.
 - The program then prints the dictionary of unique payers and their added balances.
